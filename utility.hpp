@@ -1,7 +1,3 @@
-//
-// Created by 郑文鑫 on 2019-03-09.
-//
-
 #ifndef BPLUSTREE_UTILITY_H
 #define BPLUSTREE_UTILITY_H
 

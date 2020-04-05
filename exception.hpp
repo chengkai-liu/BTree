@@ -1,7 +1,3 @@
-//
-// Created by 郑文鑫 on 2019-03-10.
-//
-
 #ifndef BPLUSTREE_EXCEPTION_H
 #define BPLUSTREE_EXCEPTION_H
 
