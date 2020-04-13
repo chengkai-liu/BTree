@@ -26,6 +26,12 @@ B+树是一种树数据结构，通常用于数据库和操作系统的文件系
 
   `~BTree()`
 
+* 清空
+
+  `void clear()`
+
+  清空B+树中存储的数据
+
 * 插入
 
   `bool insert(const Key &key, const Value &value)`
