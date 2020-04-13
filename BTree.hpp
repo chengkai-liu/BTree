@@ -26,15 +26,15 @@ namespace sjtu {
 
         }
 
-        Value at(const Key &key) {
-
-        }
-
         bool insert(const Key &key, const Value &value) {
 
         }
 
         bool modify(const Key &key, const Value &value) {
+
+        }
+
+        Value at(const Key &key) {
 
         }
 
@@ -47,6 +47,7 @@ namespace sjtu {
         private:
             // Your private members go here
         public:
+            // modify by iterator
             bool modify(const Value& value){
                 
             }
@@ -86,7 +87,7 @@ namespace sjtu {
 
         }
         
-        // Return a iterator to the end(the next element after the last)
+        // return an iterator to the end(the next element after the last)
         iterator end() {
 
         }
@@ -95,6 +96,7 @@ namespace sjtu {
         
         }
         
+        // return an iterator whose key is the smallest key greater or equal than 'key'
         iterator lower_bound(const Key &key) {
             
         }
