@@ -71,13 +71,9 @@ B+树是一种树数据结构，通常用于数据库和操作系统的文件系
 
 ## 建议
 
-* B+树原理并不复杂，英文维基百科上写的比较清楚，基本看完就差不多了
-
-  Wikipedia链接：https://en.wikipedia.org/wiki/B%2B_tree
+* B+树原理并不复杂，英文Wikipedia上写的比较清楚，基本看完就差不多了
 
 * B+树可视化：https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html
-
-* 从上到下或者从上到下递归都可以
 
 * 文件读写是个难点，可以使用C语言的文件读写方式
 
