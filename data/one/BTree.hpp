@@ -1,4 +1,3 @@
-#include "utility.hpp"
 #include <functional>
 #include <cstddef>
 #include "exception.hpp"
@@ -26,15 +25,15 @@ namespace sjtu {
 
         }
 
-        Value at(const Key &key) {
-
-        }
-
         bool insert(const Key &key, const Value &value) {
 
         }
 
         bool modify(const Key &key, const Value &value) {
+
+        }
+
+        Value at(const Key &key) {
 
         }
 
@@ -47,38 +46,49 @@ namespace sjtu {
         private:
             // Your private members go here
         public:
-            bool modify(const Value& value){
+            iterator() {
+                
+            }
+            iterator(const iterator& other) {
                 
             }
 
-            iterator() {
-                // TODO Default Constructor
+            // modify by iterator
+            bool modify(const Value& value) {
+                
             }
-            iterator(const iterator& other) {
-                // TODO Copy Constructor
+
+            Key getKey() const {
+
             }
-            // Return a new iterator which points to the n-next elements
+
+            Value getValue() const {
+
+            }
+
             iterator operator++(int) {
-                // Todo iterator++
+
             }
+
             iterator& operator++() {
-                // Todo ++iterator
+                
             }
             iterator operator--(int) {
-                // Todo iterator--
+                
             }
+
             iterator& operator--() {
-                // Todo --iterator
+                
             }
 
             // Overloaded of operator '==' and '!='
             // Check whether the iterators are same
             bool operator==(const iterator& rhs) const {
-                // Todo operator ==
+                
             }
 
             bool operator!=(const iterator& rhs) const {
-                // Todo operator !=
+                
             }
         };
         
@@ -86,7 +96,7 @@ namespace sjtu {
 
         }
         
-        // Return a iterator to the end(the next element after the last)
+        // return an iterator to the end(the next element after the last)
         iterator end() {
 
         }
@@ -95,6 +105,7 @@ namespace sjtu {
         
         }
         
+        // return an iterator whose key is the smallest key greater or equal than 'key'
         iterator lower_bound(const Key &key) {
             
         }
